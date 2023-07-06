@@ -13,7 +13,7 @@ def test_properties():
     """Assert some properties are correct."""
     message = ArticleEditV1(body=DUMMY_ARTICLE_EDIT)
 
-    assert message.app_name == "Mediawiki"
+    assert message.app_name == "Wiki"
     assert message.app_icon == "https://apps.fedoraproject.org/img/icons/mediawiki.png"
     assert message.agent_name == "dummy-user"
     assert message.agent_avatar == (

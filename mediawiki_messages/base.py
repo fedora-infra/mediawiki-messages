@@ -15,7 +15,7 @@ class MediawikiMessage(message.Message):
 
     @property
     def app_name(self):
-        return "Mediawiki"
+        return "Wiki"
 
     @property
     def app_icon(self):
