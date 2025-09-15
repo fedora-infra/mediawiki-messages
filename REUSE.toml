@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "mediawiki-messages"
+SPDX-PackageSupplier = "Fedora Infrastructure Team <infrastructure@lists.fedoraproject.org>"
+SPDX-PackageDownloadLocation = "http://github.com/fedora-infra/mediawiki-messages"
+
+[[annotations]]
+path = ["README.md", ".github/renovate.json", "poetry.lock"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2023 Contributors to the Fedora Project"
+SPDX-License-Identifier = "LGPL-3.0-or-later"

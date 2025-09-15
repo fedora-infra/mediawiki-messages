@@ -2,4 +2,4 @@
 #
 # SPDX-License-Identifier: LGPL-3.0-or-later
 
-from .article import ArticleEditV1
+from .article import ArticleEditV1 as ArticleEditV1
